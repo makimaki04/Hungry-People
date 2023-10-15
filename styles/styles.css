@@ -263,7 +263,6 @@
   line-height: 28px;
 }
 
-
 .about__text {
   padding-block-start: 10px;
   text-align: center;
@@ -276,12 +275,13 @@
 }
 
 .about__img-box {
+  block-size: 475px;
   grid-column: 2/3;
   position: relative;
 }
 
 .about__img {
-  block-size: 475px;
+  block-size: 100%;
   inline-size: 475px;
   object-fit: cover;
 }
@@ -294,4 +294,121 @@
   inline-size: 250px;
   border: 20px solid #E8C300;
   border-radius: 5px;
+}
+
+.menu {
+  margin-inline: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__title {
+  margin-block-end: 10px;
+  color: #000;
+  font-family: 'Banny', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.menu__rectangle {
+  margin-block-end: 21px;
+  block-size: 5px;
+  inline-size: 61px;
+  border-radius: 50px;
+  background-color: #E8C300;
+}
+
+.menu__description {
+  inline-size: 565px;
+  color: #000;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.menu__posiitions {
+  margin-block-start: 60px;
+  display: flex;
+  list-style: none;
+}
+
+.menu__posiitions-item {
+  inline-size: 120px;
+  text-align: center;
+}
+
+.menu__positions-link {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  position: relative;
+}
+
+.menu__positions-link:not(:last-of-type)::after {
+  content: "";
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  bottom: -15px;
+  right: -42px;
+  background-color: rgba(51, 51, 51, 0.20);
+}
+
+.menu__section-dish {
+  margin-block-start: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 363px);
+  column-gap: 95px;
+}
+
+.menu__section-dish-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu__section-dish-title {
+  color: #333;
+  font-family: 'Banny', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.menu__section-dish-description {
+  color: rgba(51, 51, 51, 0.50);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.menu__letter-spacing {
+  letter-spacing: 5.3px;
+}
+
+.photo__galerie {
+  margin-block-start: 84px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo__galerie-item {
+  block-size: 360px;
+  inline-size: 360px;
 }
