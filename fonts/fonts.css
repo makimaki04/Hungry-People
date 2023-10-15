@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/banny');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Banny';
+  src: url('https://fonts.cdnfonts.com/css/banny');
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+  font-display: swap;
+  font-weight: normal;
+}
